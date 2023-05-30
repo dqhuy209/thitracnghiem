@@ -116,6 +116,7 @@ begin
 	select * from tblNguoiDung
 end
 
+--Sửa thêm bài thi
 alter proc SP_ThemBaiThi(
 	@TieuDe nvarchar(50),
 	@NgayTao datetime,
